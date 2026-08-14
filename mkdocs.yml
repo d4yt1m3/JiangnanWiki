@@ -8,6 +8,8 @@ repo_name: d4yt1m3/JiangnanWiki
 theme:
   name: material
   language: zh
+  logo: assets/images/jiangnan-university-logo.png
+  favicon: assets/images/jiangnan-university-logo.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -24,27 +26,12 @@ theme:
         icon: material/weather-sunny
         name: 切换至浅色模式
   features:
-    - navigation.sections
     - navigation.top
     - search.suggest
     - search.highlight
-    - content.code.copy
 
 nav:
-  - 首页: index.md
-  - 关于: about.md
-
-markdown_extensions:
-  - admonition
-  - attr_list
-  - md_in_html
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.tabbed:
-      alternate_style: true
+  - Welcome: index.md
 
 plugins:
   - search:
