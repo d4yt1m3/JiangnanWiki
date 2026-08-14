@@ -8,8 +8,8 @@ repo_name: d4yt1m3/JiangnanWiki
 theme:
   name: material
   language: zh
-  logo: assets/images/jiangnan-university-logo.png
-  favicon: assets/images/jiangnan-university-logo.png
+  logo: assets/images/jiangnan-university-logo-white.png
+  favicon: assets/images/jiangnan-university-logo-white.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
