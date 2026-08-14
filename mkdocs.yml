@@ -4,6 +4,7 @@ site_author: d4yt1m3
 site_url: https://d4yt1m3.github.io/JiangnanWiki/
 repo_url: https://github.com/d4yt1m3/JiangnanWiki
 repo_name: d4yt1m3/JiangnanWiki
+copyright: Made with Material for MkDocs and ChatGPT
 
 theme:
   name: material
@@ -42,6 +43,9 @@ nav:
           - 昇腾鲲鹏 AI 创新俱乐部: 科创俱乐部/人工智能与计算机学院/昇腾鲲鹏AI创新俱乐部.md
       - 自动化与智能科学学院:
           - 数据赋能俱乐部: 科创俱乐部/自动化与智能科学学院/数据赋能俱乐部.md
+
+extra:
+  generator: false
 
 plugins:
   - search:
