@@ -27,11 +27,19 @@ theme:
         name: 切换至浅色模式
   features:
     - navigation.top
+    - navigation.sections
     - search.suggest
     - search.highlight
 
 nav:
   - Welcome: index.md
+  - 科创俱乐部:
+      - 人工智能与计算机学院:
+          - ACM 俱乐部: 科创俱乐部/人工智能与计算机学院/ACM俱乐部.md
+          - 信息安全俱乐部: 科创俱乐部/人工智能与计算机学院/信息安全俱乐部.md
+          - 智能系统俱乐部: 科创俱乐部/人工智能与计算机学院/智能系统俱乐部.md
+          - 数字媒体俱乐部: 科创俱乐部/人工智能与计算机学院/数字媒体俱乐部.md
+          - 计算机系统俱乐部: 科创俱乐部/人工智能与计算机学院/计算机系统俱乐部.md
 
 plugins:
   - search:
