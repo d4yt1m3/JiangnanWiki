@@ -27,12 +27,11 @@ theme:
         name: 切换至浅色模式
   features:
     - navigation.top
-    - navigation.sections
     - search.suggest
     - search.highlight
 
 nav:
-  - Welcome: index.md
+  - 欢迎: index.md
   - 科创俱乐部:
       - 人工智能与计算机学院:
           - ACM 俱乐部: 科创俱乐部/人工智能与计算机学院/ACM俱乐部.md
